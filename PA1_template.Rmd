@@ -36,7 +36,6 @@ The first step of this assignment is to download and read the data:
 
 ```{r downloading and reading}
 # Downloading the file
-setwd("C:/Users/Teste/Desktop/Projects/CourseProject1_ReproducibleResearch")
 fileUrl <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip"
 download.file(fileUrl, file.path("./", "data.zip"))
 unzip("./data.zip")
